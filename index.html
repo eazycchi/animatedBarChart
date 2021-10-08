@@ -97,11 +97,6 @@
                     <td><a href="#" @click.prevent="loadExample('20152021tahun')">Pilih</a></td>
                     <td><a href="datasets/20152021tahun.csv">Download</a></td>
                   </tr>
-                  <tr>
-                    <td>Data Ekspor Provinsi Lampung berdasarkan Bulan (Januari 2015 - Agustus 2021)</td>
-                    <td><a href="#" @click.prevent="loadExample('20152021bulan')">Pilih</a></td>
-                    <td><a href="datasets/20152021bulan.csv">Download</a></td>
-                  </tr>
                   </tbody>
                 </table>
               </div>
@@ -340,16 +335,10 @@
       // settings for the example data
       const settings = {
           "20152021tahun": {
-              "duration": 30,
-              "top_n": 10,
+              "duration": 21,
+              "top_n": 12,
               "title": "Data Ekspor Provinsi Lampung berdasarkan Tahun (Januari 2015 - Agustus 2021)",
               "url": "https://raw.githubusercontent.com/eazycchi/animatedBarChart/main/datasets/20152021tahun.csv"
-          },
-          "20152021bulan": {
-              "duration": 30,
-              "top_n": 10,
-              "title": "Data Ekspor Provinsi Lampung berdasarkan Bulan (Januari 2015 - Agustus 2021)",
-              "url": "https://raw.githubusercontent.com/eazycchi/animatedBarChart/main/datasets/20152021bulan.csv"
           },
       }
   </script>
