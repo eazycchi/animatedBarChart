@@ -293,7 +293,8 @@ function createBarChartRace(data, top_n, tickDuration) {
       drawGraph();
       // increment loop
       i += 1;
-      if (i == data.length) interval.stop();
+      // if (i == data.length) interval.stop();
+      if (i == data.length) i = 0;
     }, tickDuration);
     return interval
 
